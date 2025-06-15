@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8B Ai</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="icon/jpg href="image8b.jpg>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div id="app-container">
+        <header>
+            <div class="logo-title">
+                <img src="image8b.jpg" alt="8B Ai Logo">
+                <h1>8B Ai</h1>
+            </div>
+            <div class="settings">
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider round"></span>
+                </label>
+                <span class="material-symbols-outlined theme-icon">dark_mode</span>
+            </div>
+        </header>
+
+        <main id="chat-container">
+            <div class="message bot-message">
+                <p>សួស្តី! ពួកអា2k25 ខ្ញុំជាAi របស់ថ្នាក់ទី<b>8B</b>ចង់សួរអីសួរមកតែពេលខ្លះអាចបែកថ្នាំ<br>
+                Aiមួយនេះមិនអាចនិយាយភាសាខ្មែរបានឡើយវាអាចតែនិយាយអង់គ្លេស</p>
+            </div>
+        </main>
+
+        <footer>
+            <div id="image-preview-container">
+                <img id="image-preview" src="#" alt="Image Preview"/>
+                <button id="remove-image-btn">x</button>
+            </div>
+            <div class="input-area">
+                <textarea id="user-input" placeholder="សួរអីក៏បាន Aiនេះអាចសរសេរភាសាខ្មែរបានតែមិនអាចនិយាយ" rows="1"></textarea>
+                <input type="file" id="image-upload" accept="image/*" style="display: none;">
+                <button id="upload-btn" class="icon-btn">
+                    <span class="material-symbols-outlined">image</span>
+                </button>
+                <button id="send-btn" class="icon-btn">
+                    <span class="material-symbols-outlined">send</span>
+                </button>
+            </div>
+            <p class="creator-tag">Created by Lychay for Class 8B zin&reg;</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
